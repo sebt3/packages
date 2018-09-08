@@ -1,0 +1,20 @@
+Origin: sebt3.github.io/packages
+Label: sebt3 Github packages
+Suite: stretch
+Codename: stretch
+Date: Sat, 08 Sep 2018 15:59:28 UTC
+Architectures: arm64
+Components: main
+Description: Debian ARM packages hosted on sebt3 github repository
+MD5Sum:
+ df11c14570ba5def5b998a049c98157a 47353 main/binary-arm64/Packages
+ 2fa9ecc7ac6e53666874f09f43e5cdb7 10210 main/binary-arm64/Packages.gz
+ 07f036209d55a1fad54844163bd1a716 182 main/binary-arm64/Release
+SHA1:
+ 6d460eca23ba025230e2da27c4b337ae4d504ee8 47353 main/binary-arm64/Packages
+ 977442e6a8903ccba705c0d1d3c3d34af1a6c837 10210 main/binary-arm64/Packages.gz
+ b965fed73e4c6e2b98cb7ca3453f6c221cda0203 182 main/binary-arm64/Release
+SHA256:
+ 4c240a8759266a0f77c70f217a652d03160898cff842a74c20e4c47b6fafe7e9 47353 main/binary-arm64/Packages
+ 0411debc206a77877d0f6b9e9f8b538ee20d5bda8760a6331d605114e9414c6e 10210 main/binary-arm64/Packages.gz
+ 7df5d1df6379aa9f4da497ec1f06e202a80d03d697fc93ff5fb5e001d1d65ef9 182 main/binary-arm64/Release

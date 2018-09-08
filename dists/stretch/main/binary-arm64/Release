@@ -1,0 +1,6 @@
+Archive: stretch
+Component: main
+Origin: sebt3.github.io/packages
+Label: sebt3 Github packages
+Architecture: arm64
+Description: Debian ARM packages hosted on sebt3 github repository
