@@ -990,15 +990,15 @@ Package: td-agent-bit
 Version: 0.15.0
 Architecture: arm64
 Maintainer: Eduardo Silva <eduardo@treasure-data.com>
-Installed-Size: 9560
+Installed-Size: 9634
 Homepage: http://fluentbit.io
 Priority: optional
 Section: net
 Filename: pool/main/t/td-agent-bit/td-agent-bit_0.15.0_arm64.deb
-Size: 1432370
-SHA256: bf1b0958930a575938764dd95e573d5fad871b037e99665322048d012946c194
-SHA1: c8ebc7fac470acafd16dc30c7ffcf6a8140cba3f
-MD5sum: 8e1550f586196bf829f6e9e1b8d4b9f6
+Size: 1443342
+SHA256: c336eac7cfb393b1674ee695c55177cdd0d76b218f1bee9efbc22ef6e29fbb45
+SHA1: 6d2c5730c47c71f9021d1f970483b625a8cdae0a
+MD5sum: 169516ce554ae5b34c41e809abde6517
 Description: High performance Log Forwarder for Linux.
  Fluent Bit is a high performance data collector and log forwarder for Linux.
  It provides a flexible architecture and plugins to collect, parser, filter and
