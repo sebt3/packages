@@ -285,19 +285,19 @@ Description: Docker toolset to pack, ship, store, and deliver content
   * webhook notifications
 
 Package: etcd
-Version: 3.2.18+dfsg-1
+Version: 3.4.0
 Architecture: all
-Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
-Installed-Size: 15
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 16
 Depends: etcd-client, etcd-server
 Homepage: https://github.com/coreos/etcd
 Priority: optional
 Section: oldlibs
-Filename: pool/main/e/etcd/etcd_3.2.18+dfsg-1_all.deb
-Size: 7244
-SHA256: 130fdf62e7c2a541ed675be919ab19787e17074873d0f65a96123fa5191e8cb6
-SHA1: f52f2137f442ae302697348bd1c7eade86bf2272
-MD5sum: a9876f5e698315506f5eb4a4aa3fe4a6
+Filename: pool/main/e/etcd/etcd_3.4.0_all.deb
+Size: 7828
+SHA256: 2874947d4e4de86ba67045aba6ff780d5fa4f918983a24c68bdd4e56fd4c6c4a
+SHA1: c8bec2711e69da1b9e425a1ef397f6fa6739734c
+MD5sum: 471bf3179a5a3595e20a84397585e646
 Description: Transitional package for etcd-client and etcd-server
  This is a transitional package to ease upgrades for splitting the
  etcd package into a separate client and server piece. It can be
@@ -305,20 +305,19 @@ Description: Transitional package for etcd-client and etcd-server
 
 Package: etcd-client
 Source: etcd
-Version: 3.2.18+dfsg-1
+Version: 3.4.0
 Architecture: arm64
-Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
-Installed-Size: 31447
-Depends: libc6 (>= 2.17)
-Built-Using: golang-1.10 (= 1.10-1), golang-github-beorn7-perks (= 0.0~git20160804.0.4c0e845-1), golang-github-bgentry-speakeasy (= 0.1.0-1), golang-github-cockroachdb-cmux (= 0.0~git20170110.0.30d10be-1), golang-github-coreos-bbolt (= 1.3.1-coreos.5-1), golang-github-coreos-go-systemd (= 14-1), golang-github-coreos-pkg (= 3-1), golang-github-coreos-semver (= 0.2.0-2), golang-github-dgrijalva-jwt-go-v3 (= 3.0.0+v3-1), golang-github-dustin-go-humanize (= 0.0~git20171111.bb3d318-1), golang-github-ghodss-yaml (= 1.0.0-1), golang-github-golang-groupcache (= 0.0~git20171101.84a468c-1), golang-github-google-btree (= 0.0~git20161217.0.316fb6d-1), golang-github-grpc-ecosystem-go-grpc-prometheus (= 1.1+git20170826.0dafe0d-1), golang-github-grpc-ecosystem-grpc-gateway (= 1.3.0-1), golang-github-jonboulle-clockwork (= 0.1.0-4), golang-github-mattn-go-runewidth (= 0.0.2+git20170510.3.97311d9-1), golang-github-olekukonko-tablewriter (= 0.0~git20170719.0.be5337e-1), golang-github-prometheus-client-golang (= 0.8.0-2), golang-github-prometheus-client-model (= 0.0.2+git20150212.12.fa8ad6f-2), golang-github-prometheus-common (= 0+git20180110.89604d1-1), golang-github-spf13-cobra (= 0.0.2-1), golang-github-spf13-pflag (= 1.0.0+git20180403.1ce0cc6-1), golang-github-ugorji-go-codec (= 1.1.1-1), golang-github-urfave-cli (= 1.20.0-1), golang-github-xiang90-probing (= 0.0.1-1), golang-go.crypto (= 1:0.0~git20180322.88942b9-1), golang-gogoprotobuf (= 0.5-2), golang-golang-x-net-dev (= 1:0.0+git20180124.0ed95ab+dfsg-1), golang-golang-x-time (= 0.0~git20161028.0.f51c127-2), golang-google-genproto (= 0.0~git20171123.7f0da29-1), golang-google-grpc (= 1.6.0-3), golang-goprotobuf (= 0.0~git20170808.0.1909bc2-2), golang-procfs (= 0+git20170703.e645f4e-1), golang-protobuf-extensions (= 1.0.0-2), golang-pty (= 1.0.0-2), golang-x-text (= 0.0~git20170627.0.6353ef0-1)
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 14918
+Built-Using: golang-1.11 (= 1.11.4-4)
 Homepage: https://github.com/coreos/etcd
 Priority: optional
 Section: net
-Filename: pool/main/e/etcd/etcd-client_3.2.18+dfsg-1_arm64.deb
-Size: 5838056
-SHA256: b3795aaeb2664bd1394728fb99e6efa7f99374a2657de4977e4c4501acdaae95
-SHA1: e8982d5d1b0e0508331c88ead1acbba1dc65e78a
-MD5sum: 01475fff9c3a5216f1e200a74acbed5a
+Filename: pool/main/e/etcd/etcd-client_3.4.0_arm64.deb
+Size: 3627052
+SHA256: 39e2e43bff0cb3170766b44e2535f0a9db264730fadba9fd425bd8e9c31e6d7c
+SHA1: 153b9895bfe497031c4928cfd8c81fe9443dec19
+MD5sum: 107a44c50aa79b97b1dd366248e6ec61
 Description: highly-available key value store -- client
  A highly-available key value store for shared configuration and service
  discovery. etcd is inspired by zookeeper and doozer, with a focus on:
@@ -335,21 +334,21 @@ Description: highly-available key value store -- client
 
 Package: etcd-server
 Source: etcd
-Version: 3.2.18+dfsg-1
+Version: 3.4.0
 Architecture: arm64
-Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
-Installed-Size: 16431
-Depends: adduser, lsb-base, pipexec, libc6 (>= 2.17)
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 23316
+Depends: adduser, lsb-base, pipexec
 Suggests: etcd-client
-Built-Using: golang-1.10 (= 1.10-1), golang-github-beorn7-perks (= 0.0~git20160804.0.4c0e845-1), golang-github-bgentry-speakeasy (= 0.1.0-1), golang-github-cockroachdb-cmux (= 0.0~git20170110.0.30d10be-1), golang-github-coreos-bbolt (= 1.3.1-coreos.5-1), golang-github-coreos-go-systemd (= 14-1), golang-github-coreos-pkg (= 3-1), golang-github-coreos-semver (= 0.2.0-2), golang-github-dgrijalva-jwt-go-v3 (= 3.0.0+v3-1), golang-github-dustin-go-humanize (= 0.0~git20171111.bb3d318-1), golang-github-ghodss-yaml (= 1.0.0-1), golang-github-golang-groupcache (= 0.0~git20171101.84a468c-1), golang-github-google-btree (= 0.0~git20161217.0.316fb6d-1), golang-github-grpc-ecosystem-go-grpc-prometheus (= 1.1+git20170826.0dafe0d-1), golang-github-grpc-ecosystem-grpc-gateway (= 1.3.0-1), golang-github-jonboulle-clockwork (= 0.1.0-4), golang-github-mattn-go-runewidth (= 0.0.2+git20170510.3.97311d9-1), golang-github-olekukonko-tablewriter (= 0.0~git20170719.0.be5337e-1), golang-github-prometheus-client-golang (= 0.8.0-2), golang-github-prometheus-client-model (= 0.0.2+git20150212.12.fa8ad6f-2), golang-github-prometheus-common (= 0+git20180110.89604d1-1), golang-github-spf13-cobra (= 0.0.2-1), golang-github-spf13-pflag (= 1.0.0+git20180403.1ce0cc6-1), golang-github-ugorji-go-codec (= 1.1.1-1), golang-github-urfave-cli (= 1.20.0-1), golang-github-xiang90-probing (= 0.0.1-1), golang-go.crypto (= 1:0.0~git20180322.88942b9-1), golang-gogoprotobuf (= 0.5-2), golang-golang-x-net-dev (= 1:0.0+git20180124.0ed95ab+dfsg-1), golang-golang-x-time (= 0.0~git20161028.0.f51c127-2), golang-google-genproto (= 0.0~git20171123.7f0da29-1), golang-google-grpc (= 1.6.0-3), golang-goprotobuf (= 0.0~git20170808.0.1909bc2-2), golang-procfs (= 0+git20170703.e645f4e-1), golang-protobuf-extensions (= 1.0.0-2), golang-pty (= 1.0.0-2), golang-x-text (= 0.0~git20170627.0.6353ef0-1)
+Built-Using: golang-1.11 (= 1.11.4-4)
 Homepage: https://github.com/coreos/etcd
 Priority: optional
 Section: net
-Filename: pool/main/e/etcd/etcd-server_3.2.18+dfsg-1_arm64.deb
-Size: 3852368
-SHA256: 4148bac8eab2dc7fa4f0bcdb78b64b1d839553f231edcb1a44591cc474688d2d
-SHA1: 99c5bef387e5c1780e586857f5c322e537435a81
-MD5sum: dde689a4b9592df436c7361d51ab490c
+Filename: pool/main/e/etcd/etcd-server_3.4.0_arm64.deb
+Size: 7508734
+SHA256: 6a944fc3cd21caef5229158f7b2263292593d3f04c4a5534f1600d69a9baeb89
+SHA1: 2ab4b30bdb0d478d843b7326623841a3765d98d0
+MD5sum: bc146a4024430bd241886b3eff010b40
 Description: highly-available key value store -- daemon
  A highly-available key value store for shared configuration and service
  discovery. etcd is inspired by zookeeper and doozer, with a focus on:
